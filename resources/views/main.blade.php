@@ -19,6 +19,13 @@
 
     <main>
         <h1>Laravel model</h1>
+        <div>
+            @foreach ($movies as $movie)
+                <div>
+                    <h2>{{$movie->title}}</h2>
+                </div>
+            @endforeach
+        </div>
     </main>
 
 </body>
